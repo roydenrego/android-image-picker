@@ -8,7 +8,7 @@ A simple library to select images from the gallery and camera.
 
 <img src="https://raw.githubusercontent.com/esafirm/android-image-picker/master/art/ss.gif" height="460" width="284"/>
 
-## Download [![](https://jitpack.io/v/esafirm/android-image-picker.svg)](https://jitpack.io/#esafirm/android-image-picker)
+## Download [![](https://jitpack.io/v/roydenrego/android-image-picker.svg)](https://jitpack.io/#esafirm/android-image-picker)
 
 Add this to your project's `build.gradle`
 
@@ -24,15 +24,13 @@ And add this to your module's `build.gradle`
 
 ```groovy
 dependencies {
-	implementation 'com.github.esafirm.android-image-picker:imagepicker:x.y.z'
-	// for experimental rx picker
-	implementation 'com.github.esafirm.android-image-picker:rximagepicker:x.y.z'
+	implementation 'com.github.roydenrego:android-image-picker:x.y.z'
 	// If you have a problem with Glide, please use the same Glide version or simply open an issue
 	implementation 'com.github.bumptech.glide:glide:4.5.0'
 }
 ```
 
-change `x.y.z` to version in the [release page](https://github.com/esafirm/android-image-picker/releases)
+change `x.y.z` to version in the [release page](https://github.com/roydenrego/android-image-picker/releases)
 
 **Breaking changes**
 
@@ -123,6 +121,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ```
 
 ## Original License
+
+[Forked from esafirm/android-image-picker](https://github.com/esafirm/android-image-picker)
 
 [The Original Image Picker](https://github.com/nguyenhoanglam/ImagePicker)
 
